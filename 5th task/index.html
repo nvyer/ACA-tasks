@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+
+    <div>
+
+        <!---Write a JavaScript program to count and display the items of a dropdown list-->
+
+        <label for="geography">cities:</label>
+        <select name="cities" id="city">
+            <option value="Yerevan">Yerevan</option>
+            <option value="Moscow">Moscow</option>
+            <option value="Rome">Rome</option>
+            <option value="New York">New York</option>
+        </select>
+
+        <label>count:</label>
+        <span id='count'></span>
+    </div>
+    <div>
+        <!--. Write a JavaScript program to set the background color of a paragraph from an input type= color.-->
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, perspiciatis!</p>
+        <input type="color" id='color' />
+        <input type="button" value="change" onclick="new_background()" />
+    </div>
+    <div>
+        <!--Write a JavaScript function to get the value of the "a" href attribute and change it to another one.-->
+
+        <a id="link" href="https://www.facebook.com/">click me!!!</a>
+        <button onclick="change_link()">change link</button>
+    </div>
+    <div>
+        <!--Write a JavaScript function to add "LI" to a list element "UL"-->
+        <input id="text_for_li" type="text">
+        <input type="button" onclick="add_li()" id="add_li" value="submit" />
+        <ul></ul>
+    </div>
+    <div>
+        <!--Write a JavaScript function that would set the even li tags font color to red and the odd to green in ul-->
+        <ul>
+            <li>12</li>
+            <li>jhgjyg</li>
+
+            <li>jhgjyg</li>
+            <li>12345678</li>
+
+            <li>75ytvihu</li>
+            <li>kuhkuyh</li>
+
+            <input id="font_color" type="button" value="change" onclick="font_color()">
+        </ul>
+    </div>
+
+    <div id="w_h" onload="width_height()" onresize="width_height()">
+
+        <!-- Write a JavaScript program to get the width and height of the window (any time the window is resized-->
+        <input id="width_height" type="button" value="show width and height of the window" onclick="width_height()">
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
